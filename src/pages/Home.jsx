@@ -1,5 +1,5 @@
 import React from 'react';
-import { boneco, boneco2, icon1, icon2, icon3, icon4 } from '../assets';
+import { boneco, boneco2, feedback, icon1, icon2, icon3, icon4, pessoas } from '../assets';
 
 const Home = () => {
   return (
@@ -107,6 +107,23 @@ const Home = () => {
             </p>
           </div>
         </div>
+      </div>
+    </section>
+    <section className='flex flex-col w-full max-w-7xl justify-between sm:px-[9rem] items-center gap-8 sm:gap-12'>
+      <h1 className='font-bold text-[2rem] sm:text-[2.5rem] text-white text-center'>
+        Feedback
+      </h1>
+      <div className='flex sm:flex-row flex-col items-center gap-10 sm:gap-[15rem]'>
+        <img 
+          src={ feedback }
+          alt=""
+          className='sm:w-[500px] w-[90vw]'
+        />
+        <img 
+          src={ pessoas }
+          alt=""
+          className='w-[183.8px] h-[210px]'
+        />
       </div>
     </section>
     </main>

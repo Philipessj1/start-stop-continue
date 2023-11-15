@@ -7,6 +7,8 @@ import icon2 from './icon2.png';
 import icon3 from './icon3.png';
 import icon4 from './icon4.png';
 import burger from './burger-icon.svg';
+import feedback from './feedback.png';
+import pessoas from './pessoas.png';
 
 
 export {
@@ -19,4 +21,6 @@ export {
   icon3,
   icon4,
   burger,
+  feedback,
+  pessoas,
 };
