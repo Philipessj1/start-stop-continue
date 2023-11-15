@@ -31,8 +31,8 @@ function App() {
                 Curso
               </a>
            </div>
-           <a href="/">
-            <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="60" className='sm:hidden fill-[#B0B0D1] mx-4'><path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"/></svg>
+           <a href="/" className='px-1'>
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="50" className='sm:hidden fill-[#B0B0D1]'><path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"/></svg>
            </a>
            <div className='w-full justify-center items-center text-sm sm:text-xs hidden sm:flex'>
             <button className='hover:font-semibold hover:bg-white hover:text-black hover:border-none border py-1.5 w-[100px] rounded-3xl mr-4'>
