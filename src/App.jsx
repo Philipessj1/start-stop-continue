@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='h-[screen] flex flex-col w-full justify-center items-center'>
+      <div className='flex flex-col w-full justify-center items-center'>
         <header className='w-full flex justify-center py-3 mb-8'>
           <nav className='flex max-w-7xl justify-around items-center w-full text-white'>
             <a href='/' className='flex items-center justify-center w-full'>
@@ -32,17 +32,16 @@ function App() {
               </a>
            </div>
            <div className='w-full justify-center items-center text-sm sm:text-xs hidden sm:flex'>
-            <button className='border py-1.5 w-[100px] rounded-3xl mr-4'>
+            <button className='hover:font-semibold hover:bg-white hover:text-black hover:border-none border py-1.5 w-[100px] rounded-3xl mr-4'>
               Login
             </button>
-            <button className='bg-[#7F56D9] py-1.5 w-[100px] rounded-3xl'>
+            <button className='hover:font-semibold hover:bg-transparent hover:text-[#7F56D9] hover:border hover:border-[#7F56D9] bg-[#7F56D9] py-1.5 w-[100px] rounded-3xl'>
               Inscreva-se
             </button>
            </div>
           </nav>
         </header>
         <Home />
-        
       </div>
     </>
   )
