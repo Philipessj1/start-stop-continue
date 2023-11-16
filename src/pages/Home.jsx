@@ -5,12 +5,12 @@ import './Home.css';
 const Home = () => {
   return (
     <main className='flex w-full max-w-7xl flex-col gap-10'>
-      <section className='flex sm:flex-row flex-col w-full max-w-7xl justify-between sm:px-[9rem] items-center sm:items-start gap-8 sm:gap-0'>
+      <section className='flex md:flex-row flex-col w-full max-w-7xl justify-between md:px-[9rem] items-center md:items-start gap-8 md:gap-0'>
       <div className='text-white flex flex-col gap-2'>
-        <h1 className='font-bold text-[2rem] sm:text-[2.5rem]'>
+        <h1 className='font-bold text-[2rem] md:text-[2.5rem]'>
           <span className='text-[#BEA0FF]'>Como começar</span>, o que <br></br> parar de fazer e o que <br></br> continuar?
         </h1>
-        <p className='text-[1rem] sm:text-[1.2rem]'>
+        <p className='text-[1rem] md:text-[1.2rem]'>
           Uma relação entre dinheiro e <br></br> aspectos emocionais.
         </p>
       </div>
@@ -20,13 +20,13 @@ const Home = () => {
         className='max-h-[350px]'
       />
     </section>
-    <section className='flex sm:flex-row flex-col w-full max-w-7xl justify-between sm:px-[9rem] items-center sm:items-start gap-8 sm:gap-0'>
+    <section className='flex md:flex-row flex-col w-full max-w-7xl justify-between md:px-[9rem] items-center md:items-start gap-8 md:gap-0'>
       <div className='text-white flex flex-col gap-5'>
         <div>
-          <h1 className='font-bold text-[2rem] sm:text-[2.5rem]'>
+          <h1 className='font-bold text-[2rem] md:text-[2.5rem]'>
             Ementa
           </h1>
-          <h2 className='font-bold text-[1rem] sm:text-[1.1rem]'>
+          <h2 className='font-bold text-[1rem] md:text-[1.1rem]'>
             Psicologia Financeira
           </h2>
         </div>
@@ -110,35 +110,35 @@ const Home = () => {
         </div>
       </div>
     </section>
-    <section className='flex flex-col w-full max-w-7xl justify-between sm:px-[9rem] items-center gap-8 sm:gap-12'>
-      <h1 className='font-bold text-[2rem] sm:text-[2.5rem] text-white text-center'>
+    <section className='flex flex-col w-full max-w-7xl justify-between md:px-[9rem] items-center gap-8 md:gap-12'>
+      <h1 className='font-bold text-[2rem] md:text-[2.5rem] text-white text-center'>
         Feedback
       </h1>
-      <div className='flex sm:flex-row flex-col items-center gap-10 sm:gap-[14rem]'>
+      <div className='flex md:flex-row flex-col items-center gap-0 md:gap-[14rem]'>
         <img 
           src={ feedback }
           alt=""
-          className='sm:w-[500px] w-[90vw]'
+          className='md:w-[500px] w-[90vw]'
         />
         <img 
           src={ pessoas }
           alt=""
-          className='w-[183.8px] h-[210px] hidden sm:block'
+          className='hidden lg:block lg:w-[183.8px] lg:h-[210px]'
         />
       </div>
     </section>
-    <section className='flex flex-col w-full max-w-7xl sm:px-[9rem] items-center gap-5 sm:gap-4 gradiente px-5'>
+    <section className='flex flex-col w-full max-w-7xl md:px-[9rem] items-center gap-5 md:gap-4 gradiente px-5'>
       <div className='flex items-center w-full pt-10'>
         <img 
           src={ notebook } 
           alt=""
           className='h-7 mr-2'
         />
-        <h1 className='font-bold text-[#D9ECFF] text-[1.2rem] leading-none sm:text-[1.5rem]'>
+        <h1 className='font-bold text-[#D9ECFF] text-[1.2rem] leading-none md:text-[1.5rem]'>
           Start Stop <br></br>Continue
         </h1>
       </div>
-      <div className='flex flex-col sm:flex-row justify-between w-full gap-5 sm:gap-0'>
+      <div className='flex flex-col md:flex-row justify-between w-full gap-5 md:gap-0'>
         <p className='text-[#B0B0D1] text-[0.6rem] pt-3'>
           Como começar, o que parar de fazer e como continuar? <br></br> Uma relação entre dinheiro e aspectos emocionais.
         </p>
