@@ -9,6 +9,11 @@ import icon4 from './icon4.png';
 import burger from './burger-icon.svg';
 import feedback from './feedback.png';
 import pessoas from './pessoas.png';
+import gradient from './gradient.png';
+import local from './local.png';
+import email from './email.png';
+import phone from './phone.png';
+import social from './social-icons.png';
 
 
 export {
@@ -23,4 +28,9 @@ export {
   burger,
   feedback,
   pessoas,
+  gradient,
+  local,
+  phone,
+  email,
+  social
 };

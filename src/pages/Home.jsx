@@ -1,5 +1,6 @@
 import React from 'react';
-import { boneco, boneco2, feedback, icon1, icon2, icon3, icon4, pessoas } from '../assets';
+import { notebook, boneco, boneco2, feedback, icon1, icon2, icon3, icon4, pessoas, phone, local, email, social } from '../assets';
+import './Home.css';
 
 const Home = () => {
   return (
@@ -113,7 +114,7 @@ const Home = () => {
       <h1 className='font-bold text-[2rem] sm:text-[2.5rem] text-white text-center'>
         Feedback
       </h1>
-      <div className='flex sm:flex-row flex-col items-center gap-10 sm:gap-[15rem]'>
+      <div className='flex sm:flex-row flex-col items-center gap-10 sm:gap-[14rem]'>
         <img 
           src={ feedback }
           alt=""
@@ -122,7 +123,72 @@ const Home = () => {
         <img 
           src={ pessoas }
           alt=""
-          className='w-[183.8px] h-[210px]'
+          className='w-[183.8px] h-[210px] hidden sm:block'
+        />
+      </div>
+    </section>
+    <section className='flex flex-col w-full max-w-7xl sm:px-[9rem] items-center gap-5 sm:gap-4 gradiente px-5'>
+      <div className='flex items-center w-full pt-10'>
+        <img 
+          src={ notebook } 
+          alt=""
+          className='h-7 mr-2'
+        />
+        <h1 className='font-bold text-[#D9ECFF] text-[1.2rem] leading-none sm:text-[1.5rem]'>
+          Start Stop <br></br>Continue
+        </h1>
+      </div>
+      <div className='flex flex-col sm:flex-row justify-between w-full gap-5 sm:gap-0'>
+        <p className='text-[#B0B0D1] text-[0.6rem] pt-3'>
+          Como começar, o que parar de fazer e como continuar? <br></br> Uma relação entre dinheiro e aspectos emocionais.
+        </p>
+        <div className='flex flex-col gap-3'>
+          <h3 className='font-bold text-[1rem] text-white'>
+            Fale Conosco
+          </h3>
+          <div className='flex gap-3'>
+            <div className='flex gap-2 items-center'>
+              <img 
+                src={ phone }
+                alt=""
+                className='h-[10px]'
+              />
+              <p className='text-[#B0B0D1] text-[0.6rem]'>
+                (21) 3882-9797
+              </p>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img 
+                src={ local }
+                alt=""
+                className='h-[10px]'
+              />
+              <p className='text-[#B0B0D1] text-[0.6rem]'>
+                Av.Paris - Bonsucesso, Rio de <br></br> Janeiro RJ - 21041-020
+              </p>
+            </div>
+          </div>
+          <div className='flex gap-2 items-center'>
+              <img 
+                src={ email }
+                alt=""
+                className='h-[10px]'
+              />
+              <p className='text-[#B0B0D1] text-[0.6rem]'>
+                bgimmr.uni@unisuam.com
+              </p>
+            </div>
+        </div>
+      </div>
+      <div className='h-[1px] w-full bg-[#dadaf732] my-5'></div>
+      <div className='flex w-full justify-between pb-5'>
+        <p className='text-[#B0B0D1] text-[0.6rem]'>
+        Copyright 2023 | All Rights Reserved
+        </p>
+        <img 
+          src={ social }
+          alt=""
+          className='h-[12px]'
         />
       </div>
     </section>
