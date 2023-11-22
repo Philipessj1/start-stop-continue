@@ -20,7 +20,7 @@ const Home = () => {
         className='max-h-[350px]'
       />
     </section>
-    <section className='flex md:flex-row flex-col w-full max-w-7xl justify-between md:px-[9rem] items-center md:items-start gap-8 md:gap-0'>
+    <section id='sobre' className='flex md:flex-row flex-col w-full max-w-7xl justify-between md:px-[9rem] items-center md:items-start gap-8 md:gap-0'>
       <div className='text-white flex flex-col gap-5'>
         <div>
           <h1 className='font-bold text-[2rem] md:text-[2.5rem]'>
